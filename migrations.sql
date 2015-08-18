@@ -1,0 +1,5 @@
+CREATE DATABASE foods;
+
+\c foods
+
+CREATE TABLE foods (id SERIAL PRIMARY KEY, name VARCHAR(255), calories VARCHAR(255));
